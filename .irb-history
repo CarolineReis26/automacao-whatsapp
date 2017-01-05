@@ -1,0 +1,7 @@
+start_test_server_in_background
+element_exists("* text:'Welcome to WhatsApp'")
+element_exists("* id:'message'")
+touch("* id:'button2'")
+touch("* id:'eula_accept'")
+touch("* id:'registration_country'")
+exit
